@@ -40,8 +40,8 @@ def evaluate(model, rounds):
     acc_SD = float(acc_SD) / float(rounds)
     loss_SD = float(loss_SD) / float(rounds)
     print(model + ' loss_SD and acc_SD:')
-    print(loss_mean)
-    print(acc_mean)
+    print(loss_SD)
+    print(acc_SD)
 
 
 models = [  'conv_longresNet0.h5',
